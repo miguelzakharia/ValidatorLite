@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator", "Validator\Validator.csproj", "{88438B77-6C0F-4A92-8E42-C4985B9D52B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{ACCFD6EF-EE3C-4AB8-B537-B5A09D7FC838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit", "Unit", "{A37F5748-1E25-4BA9-BE74-851FA5700155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Validator.Test", "Validator.Test\Validator.Test.csproj", "{7C198EBC-4BE9-4787-8EE2-E59B70C4E8F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DD9D5AF1-02FE-4702-98D2-3FD4A80A4C42}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88438B77-6C0F-4A92-8E42-C4985B9D52B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88438B77-6C0F-4A92-8E42-C4985B9D52B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88438B77-6C0F-4A92-8E42-C4985B9D52B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88438B77-6C0F-4A92-8E42-C4985B9D52B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C198EBC-4BE9-4787-8EE2-E59B70C4E8F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C198EBC-4BE9-4787-8EE2-E59B70C4E8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C198EBC-4BE9-4787-8EE2-E59B70C4E8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A37F5748-1E25-4BA9-BE74-851FA5700155} = {ACCFD6EF-EE3C-4AB8-B537-B5A09D7FC838}
+		{7C198EBC-4BE9-4787-8EE2-E59B70C4E8F3} = {A37F5748-1E25-4BA9-BE74-851FA5700155}
+	EndGlobalSection
+EndGlobal
