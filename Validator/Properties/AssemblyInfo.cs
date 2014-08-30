@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Validator")]
 [assembly: AssemblyDescription("Lite validation library")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Corporation Service Company")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Validator")]
-[assembly: AssemblyCopyright("Copyright © Corporation Service Company 2013")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
